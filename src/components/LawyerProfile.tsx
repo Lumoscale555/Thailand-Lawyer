@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { GraduationCap, Briefcase, Scale, Award } from "lucide-react";
-import { useLanguage } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext.tsx";
 
 const LawyerProfile = () => {
   const { t } = useLanguage();

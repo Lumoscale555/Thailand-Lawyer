@@ -1,8 +1,8 @@
 
 import React, { useEffect } from 'react';
-import Header from './Header';
-import Navigation from './Navigation';
-import Footer from './Footer';
+import Header from './Header.tsx';
+import Navigation from './Navigation.tsx';
+import Footer from './Footer.tsx';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
 

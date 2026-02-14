@@ -5,21 +5,21 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import { LanguageProvider } from "./contexts/LanguageContext";
+import { LanguageProvider } from "./contexts/LanguageContext.tsx";
 
 // Pages
-import Index from "./pages/Index";
-import About from "./pages/AboutUs";
-import Services from "./pages/ServicesPage";
+import Index from "./pages/Index.tsx";
+import About from "./pages/AboutUs.tsx";
+import Services from "./pages/ServicesPage.tsx";
 
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
-import VisionMission from "./pages/VisionMission";
+import Contact from "./pages/Contact.tsx";
+import NotFound from "./pages/NotFound.tsx";
+import VisionMission from "./pages/VisionMission.tsx";
 
 // Components
-import WelcomeScreen from "./pages/WelcomeScreen"; // ✅ Make sure path is correct
-import LanguageSwitcher from "./components/LanguageSwitcher";
-import Whatsapp from "./components/Whatsapp";
+import WelcomeScreen from "./pages/WelcomeScreen.tsx"; // ✅ Make sure path is correct
+import LanguageSwitcher from "./components/LanguageSwitcher.tsx";
+import Whatsapp from "./components/Whatsapp.tsx";
 
 const queryClient = new QueryClient();
 

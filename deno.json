@@ -1,6 +1,12 @@
 {
-    "compilerOptions": {
-      "lib": ["dom", "deno.ns"]
-    }
+  "lint": {
+    "exclude": [
+      "**/*"
+    ]
+  },
+  "fmt": {
+    "exclude": [
+      "**/*"
+    ]
   }
-  
+}

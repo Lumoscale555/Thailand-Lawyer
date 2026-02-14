@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useLanguage } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext.tsx";
 import { useNavigate } from "react-router-dom";
-import Whatsapp from "./Whatsapp";
+import Whatsapp from "./Whatsapp.tsx";
 
 const Hero = () => {
   const { t } = useLanguage();

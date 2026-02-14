@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -140,6 +142,7 @@
     0% {
       background-position: 0 0;
     }
+
     100% {
       background-position: 200px 200px;
     }
@@ -166,12 +169,10 @@
 
   .gold-divider {
     @apply w-24 h-1 bg-gold mx-auto my-6;
-    background: linear-gradient(
-      90deg,
-      transparent,
-      hsl(var(--gold)),
-      transparent
-    );
+    background: linear-gradient(90deg,
+        transparent,
+        hsl(var(--gold)),
+        transparent);
   }
 
   .text-shadow-gold {
@@ -181,14 +182,12 @@
   .shine-text {
     position: relative;
     color: #d4af37;
-    background: linear-gradient(
-      90deg,
-      #d4af37 0%,
-      #f2e285 25%,
-      #d4af37 50%,
-      #f2e285 75%,
-      #d4af37 100%
-    );
+    background: linear-gradient(90deg,
+        #d4af37 0%,
+        #f2e285 25%,
+        #d4af37 50%,
+        #f2e285 75%,
+        #d4af37 100%);
     background-size: 400px;
     -webkit-background-clip: text;
     background-clip: text;
@@ -201,6 +200,7 @@
     0% {
       background-position: -100px;
     }
+
     40%,
     100% {
       background-position: 300px;
@@ -216,5 +216,3 @@
     font-family: "Noto Sans SC", sans-serif;
   }
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
